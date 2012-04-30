@@ -1,0 +1,223 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://data.fcc.gov/api/license-view/basicSearch/getLicenses?format=json&searchValue=Watson
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Sun-Java-System-Web-Server/7.0
+      Date:
+      - Mon, 30 Apr 2012 06:28:16 GMT
+      Content-Type:
+      - application/json
+      X-Powered-By:
+      - Servlet/2.5 JSP/2.1
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! '{"status":"OK","Licenses":{"page":"1","rowPerPage":"100","totalRows":"2105","lastUpdate":"Apr
+        30, 2012","License":[{"licName":"ANNE WATSON ELEMENTARY","frn":"0007572050","callsign":"WPWE898","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"10/31/2012","licenseID":"2457698","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2457698"},{"licName":"ARCH
+        W WATSON ENT INC","frn":"","callsign":"WPJN367","categoryDesc":"Land Mobile
+        Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"08/06/2001","licenseID":"1738806","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1738806"},{"licName":"ARNOLD,
+        WATSON J","frn":"","callsign":"PGGB022685","categoryDesc":"Safety of Life","serviceDesc":"Commercial
+        Operator","statusDesc":"Active","expiredDate":"","licenseID":"2242008","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2242008"},{"licName":"BADEY
+        & WATSON, SURVEYING & ENGINEERING","frn":"0008228959","callsign":"WPXE732","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"03/18/2013","licenseID":"2496185","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2496185"},{"licName":"BARTO
+        WATSON INC","frn":"","callsign":"WIF433","categoryDesc":"Land Mobile Radio","serviceDesc":"Industrial/Business
+        Pool, Conventional","statusDesc":"Terminated","expiredDate":"10/06/2002","licenseID":"1644651","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1644651"},{"licName":"BILL
+        WATSON FARMS INC","frn":"0001590587","callsign":"WQU728","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"10/12/2015","licenseID":"1873577","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1873577"},{"licName":"BILL
+        WATSON FORD","frn":"0010500478","callsign":"WPNQ257","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Business, 896-901/935-940 MHz, Trunked","statusDesc":"Active","expiredDate":"04/29/2014","licenseID":"1930065","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1930065"},{"licName":"BLAIR,
+        WATSON K","frn":"0018920975","callsign":"WCZ4631","categoryDesc":"Safety of
+        Life","serviceDesc":"Ship Compulsory Equipped","statusDesc":"Expired","expiredDate":"08/18/2009","licenseID":"1569929","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1569929"},{"licName":"BLAIR,
+        WATSON K","frn":"","callsign":"WTH5674","categoryDesc":"Safety of Life","serviceDesc":"Ship
+        Recreational or Voluntarily Equipped","statusDesc":"Expired","expiredDate":"06/14/2004","licenseID":"1508659","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1508659"},{"licName":"BOWEN
+        AND WATSON CONST INC","frn":"","callsign":"WNVI655","categoryDesc":"Land Mobile
+        Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"01/28/2001","licenseID":"1680172","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1680172"},{"licName":"BROWN
+        & WATSON INC","frn":"0010755296","callsign":"WPNW440","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"07/15/2014","licenseID":"1807900","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1807900"},{"licName":"BURDALSKI,
+        WATSON S","frn":"","callsign":"WCL7608","categoryDesc":"Safety of Life","serviceDesc":"Ship
+        Recreational or Voluntarily Equipped","statusDesc":"Expired","expiredDate":"08/17/2004","licenseID":"1409787","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1409787"},{"licName":"Brewer,
+        Watson","frn":"0013087150","callsign":"WQCN978","categoryDesc":"Land Mobile
+        Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Terminated","expiredDate":"04/20/2015","licenseID":"2711533","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2711533"},{"licName":"CHIN,
+        WATSON L","frn":"","callsign":"KC5ILV","categoryDesc":"Personal Use","serviceDesc":"Amateur","statusDesc":"Expired","expiredDate":"07/15/2004","licenseID":"441832","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=441832"},{"licName":"CITY
+        OF WATSONVILLE, PUBLIC WORKS & UTILITIES DEPARTMENT","frn":"0005747787","callsign":"WQCR593","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"05/09/2015","licenseID":"2716560","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2716560"},{"licName":"CITY
+        OF WATSONVILLE, PUBLIC WORKS & UTILITIES DEPARTMENT","frn":"0005747787","callsign":"WQCR594","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"05/09/2015","licenseID":"2716570","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2716570"},{"licName":"CITY
+        OF WATSONVILLE, PUBLIC WORKS & UTILITIES DEPARTMENT","frn":"0005747787","callsign":"WQCR596","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"05/09/2015","licenseID":"2716580","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2716580"},{"licName":"CITY
+        OF WATSONVILLE, PUBLIC WORKS & UTILITIES DEPARTMENT","frn":"0005747787","callsign":"WQCR612","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"05/09/2015","licenseID":"2716596","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2716596"},{"licName":"CONRAD
+        WATSON AIR CONDITIONING INC","frn":"0001745249","callsign":"KA35753","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Terminated","expiredDate":"08/23/2003","licenseID":"1588830","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1588830"},{"licName":"CONRAD
+        WATSON AIR CONDITIONING INC","frn":"0001745249","callsign":"WFC486","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Terminated","expiredDate":"08/23/2003","licenseID":"1644285","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1644285"},{"licName":"CONRAD
+        WATSON AIR CONDITIONING INC","frn":"0001745249","callsign":"WXZ862","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Terminated","expiredDate":"08/23/2003","licenseID":"1764799","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1764799"},{"licName":"Cottingham,
+        Watson A","frn":"0007948052","callsign":"WPWH240","categoryDesc":"Personal
+        Use","serviceDesc":"General Mobile Radio (GMRS)","statusDesc":"Expired","expiredDate":"11/15/2007","licenseID":"2461028","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2461028"},{"licName":"Czerwinski,
+        Watson P","frn":"0006877740","callsign":"W2JTJ","categoryDesc":"Personal Use","serviceDesc":"Amateur","statusDesc":"Active","expiredDate":"07/08/2014","licenseID":"787734","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=787734"},{"licName":"D
+        C Watson Investigations LLC","frn":"0017119298","callsign":"WQIE463","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"01/17/2018","licenseID":"2976806","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2976806"},{"licName":"D
+        T WATSON REHABILITATION HOSPITAL","frn":"0006694996","callsign":"WPLJ463","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"10/10/2002","licenseID":"1757574","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1757574"},{"licName":"D
+        T WATSON REHABILITATION HOSPITAL","frn":"0006694996","callsign":"WPOB570","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"11/23/2003","licenseID":"1811064","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1811064"},{"licName":"DAVIES
+        WATSON, JACQUELINE A","frn":"0006029250","callsign":"KB6EWS","categoryDesc":"Personal
+        Use","serviceDesc":"Amateur","statusDesc":"Active","expiredDate":"03/03/2012","licenseID":"374312","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=374312"},{"licName":"DIETZ  WATSON
+        INC","frn":"0010280352","callsign":"WPPS665","categoryDesc":"Land Mobile Radio","serviceDesc":"Industrial/Business
+        Pool, Conventional","statusDesc":"Active","expiredDate":"02/14/2015","licenseID":"1819184","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1819184"},{"licName":"DIETZ
+        & WATSON INC","frn":"0010280352","callsign":"WQGN221","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"03/07/2017","licenseID":"2887902","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2887902"},{"licName":"Dietz
+        & Watson Inc","frn":"0010280352","callsign":"WQAL415","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"06/28/2014","licenseID":"2632062","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2632062"},{"licName":"Effinger
+        Watson, Deborah A","frn":"0010970739","callsign":"KE6LQP","categoryDesc":"Personal
+        Use","serviceDesc":"Amateur","statusDesc":"Active","expiredDate":"08/19/2014","licenseID":"556078","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=556078"},{"licName":"G
+        A WATSON INC","frn":"","callsign":"KCO713","categoryDesc":"Land Mobile Radio","serviceDesc":"Industrial/Business
+        Pool, Conventional","statusDesc":"Expired","expiredDate":"03/03/2003","licenseID":"1845468","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1845468"},{"licName":"GABRIEL
+        JR, WATSON R","frn":"0003224482","callsign":"WB4EXW","categoryDesc":"Personal
+        Use","serviceDesc":"Amateur","statusDesc":"Active","expiredDate":"02/14/2017","licenseID":"884589","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=884589"},{"licName":"GATCHELL,
+        H DALE, HAMSTRA, GERALD H, WATSON, DAVID E  DBA : CENTURION LEASING CO","frn":"","callsign":"4648Y","categoryDesc":"Safety
+        of Life","serviceDesc":"Aircraft","statusDesc":"Expired","expiredDate":"11/01/2004","licenseID":"45421","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=45421"},{"licName":"GENE
+        WATSON CONSTRUCTION INC","frn":"","callsign":"113GW","categoryDesc":"Safety
+        of Life","serviceDesc":"Aircraft","statusDesc":"Expired","expiredDate":"02/07/2006","licenseID":"15951","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=15951"},{"licName":"GEORGE
+        E WATSON DEV CORP","frn":"","callsign":"60519","categoryDesc":"Safety of Life","serviceDesc":"Aircraft","statusDesc":"Expired","expiredDate":"05/30/2004","licenseID":"54796","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=54796"},{"licName":"GOLDSMITH,
+        WATSON W","frn":"0012886735","callsign":"WSA2552","categoryDesc":"Safety of
+        Life","serviceDesc":"Ship Recreational or Voluntarily Equipped","statusDesc":"Expired","expiredDate":"05/10/2005","licenseID":"1493569","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1493569"},{"licName":"HARMAN-WATSON
+        INC","frn":"0007886872","callsign":"WPWT354","categoryDesc":"Land Mobile Radio","serviceDesc":"Industrial/Business
+        Pool, Conventional","statusDesc":"Active","expiredDate":"01/16/2013","licenseID":"2477493","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2477493"},{"licName":"HUNTINGTON
+        WATSON LTD A DELAWARE CORP","frn":"","callsign":"WCV2298","categoryDesc":"Safety
+        of Life","serviceDesc":"Ship Recreational or Voluntarily Equipped","statusDesc":"Expired","expiredDate":"10/24/2005","licenseID":"1478897","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1478897"},{"licName":"IBM
+        TJ Watson Amateur Radio Club","frn":"0012956132","callsign":"KC2NWT","categoryDesc":"Personal
+        Use","serviceDesc":"Amateur","statusDesc":"Cancelled","expiredDate":"03/08/2015","licenseID":"2700169","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2700169"},{"licName":"IBM
+        TJ Watson Amateur Radio Club","frn":"0012956132","callsign":"W2TJW","categoryDesc":"Personal
+        Use","serviceDesc":"Vanity","statusDesc":"Active","expiredDate":"04/02/2015","licenseID":"2707122","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2707122"},{"licName":"J
+        C WATSON COMPANY","frn":"0001623750","callsign":"KA91346","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"01/28/2012","licenseID":"1844093","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1844093"},{"licName":"J
+        C WATSON COMPANY","frn":"0001622570","callsign":"KNCT931","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"01/28/2012","licenseID":"1850911","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1850911"},{"licName":"J
+        C WATSON COMPANY","frn":"0001623750","callsign":"KNCT932","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"01/28/2012","licenseID":"1850912","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1850912"},{"licName":"J
+        C WATSON COMPANY","frn":"0001623750","callsign":"KNCT933","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"02/04/2012","licenseID":"1850913","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1850913"},{"licName":"J
+        C WATSON COMPANY INC","frn":"0001623750","callsign":"WNIC225","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"02/18/2012","licenseID":"1862343","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1862343"},{"licName":"J
+        WATSON BAILEY JR HIGH SCHOOL","frn":"0003438678","callsign":"WNRX269","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"04/17/2015","licenseID":"1672500","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1672500"},{"licName":"JONES,
+        WATSON T","frn":"","callsign":"PGGB019947","categoryDesc":"Safety of Life","serviceDesc":"Commercial
+        Operator","statusDesc":"Active","expiredDate":"","licenseID":"2240426","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2240426"},{"licName":"Jones,
+        Watson T","frn":"0021295340","callsign":"RR00083040","categoryDesc":"Safety
+        of Life","serviceDesc":"Restricted Operator","statusDesc":"Active","expiredDate":"","licenseID":"3332313","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=3332313"},{"licName":"LOCKE,
+        HENRY WATSON","frn":"","callsign":"WCL6577","categoryDesc":"Safety of Life","serviceDesc":"Ship
+        Recreational or Voluntarily Equipped","statusDesc":"Expired","expiredDate":"08/16/2004","licenseID":"1408781","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1408781"},{"licName":"LUPHER,
+        WATSON B","frn":"0007873219","callsign":"N3OBI","categoryDesc":"Personal Use","serviceDesc":"Amateur","statusDesc":"Active","expiredDate":"01/26/2013","licenseID":"677467","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=677467"},{"licName":"Ladd,
+        Watson","frn":"0007573884","callsign":"KC2KDM","categoryDesc":"Personal Use","serviceDesc":"Amateur","statusDesc":"Active","expiredDate":"08/22/2012","licenseID":"2441734","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2441734"},{"licName":"MAXWELL
+        JR, PERRY C, WATSON, ANTHONY A","frn":"","callsign":"2040C","categoryDesc":"Safety
+        of Life","serviceDesc":"Aircraft","statusDesc":"Expired","expiredDate":"12/08/2004","licenseID":"23794","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=23794"},{"licName":"MC
+        INTYRE, WATSON","frn":"","callsign":"WST4500","categoryDesc":"Safety of Life","serviceDesc":"Ship
+        Recreational or Voluntarily Equipped","statusDesc":"Expired","expiredDate":"05/08/2004","licenseID":"1505044","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1505044"},{"licName":"MONTGOMERY
+        WATSON AMERICAS INC DBA MONTGOMERY WATSON","frn":"0001530989","callsign":"WPLQ371","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"11/20/2002","licenseID":"1758420","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1758420"},{"licName":"MORELAND
+        WATSON, MARY G","frn":"","callsign":"KD5HPS","categoryDesc":"Personal Use","serviceDesc":"Amateur","statusDesc":"Expired","expiredDate":"06/29/2009","licenseID":"509974","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=509974"},{"licName":"Mr.
+        Watson","frn":"0003452364","callsign":"WPOH541","categoryDesc":"Fixed Wireless","serviceDesc":"Local
+        Multipoint Distribution Service","statusDesc":"Active","expiredDate":"07/08/2018","licenseID":"8561","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=8561"},{"licName":"Mr.
+        Watson","frn":"0003452364","callsign":"WPOH542","categoryDesc":"Fixed Wireless","serviceDesc":"Local
+        Multipoint Distribution Service","statusDesc":"Active","expiredDate":"07/08/2018","licenseID":"8562","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=8562"},{"licName":"Mr.
+        Watson","frn":"0003452364","callsign":"WPOH543","categoryDesc":"Fixed Wireless","serviceDesc":"Local
+        Multipoint Distribution Service","statusDesc":"Active","expiredDate":"07/08/2018","licenseID":"8563","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=8563"},{"licName":"NASH,
+        JAMES:NASH, DIXIE:WATSON, DAVID: WATSON, DAWNITA","frn":"0012656963","callsign":"WHG908","categoryDesc":"Safety
+        of Life","serviceDesc":"Coastal Group","statusDesc":"Active","expiredDate":"03/06/2015","licenseID":"1976480","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1976480"},{"licName":"NASH,
+        JAMES:NASH, DIXIE:WATSON, DAVID:WATSON, DAWNITA","frn":"0012656963","callsign":"KA97322","categoryDesc":"Safety
+        of Life","serviceDesc":"Coastal Group","statusDesc":"Active","expiredDate":"03/06/2015","licenseID":"1962949","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1962949"},{"licName":"NEAL
+        WATSONS UNDERSEA ADV INC","frn":"","callsign":"8257B","categoryDesc":"Safety
+        of Life","serviceDesc":"Aircraft","statusDesc":"Expired","expiredDate":"07/30/2005","licenseID":"71126","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=71126"},{"licName":"OHANA
+        DE WATSONVILLE","frn":"0006222004","callsign":"KAPU-LP","categoryDesc":"Broadcast","serviceDesc":"Low
+        Power FM","statusDesc":"Active","expiredDate":"12/01/2013","licenseID":"1000124331","licDetailURL":"http://licensing.fcc.gov/cgi-bin/ws.exe/prod/cdbs/pubacc/prod/sta_det.pl?Facility_id=124331"},{"licName":"OHANA
+        DE WATSONVILLE","frn":"0006222004","callsign":"WQCG492","categoryDesc":"Broadcast
+        Support","serviceDesc":"Aural Studio Transmitter Link","statusDesc":"Active","expiredDate":"12/01/2013","licenseID":"2697218","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2697218"},{"licName":"PETER
+        WATSON COMMERCIAL REAL ESTATE INC","frn":"","callsign":"33393","categoryDesc":"Safety
+        of Life","serviceDesc":"Aircraft","statusDesc":"Expired","expiredDate":"06/19/2005","licenseID":"36372","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=36372"},{"licName":"PJG
+        WATSON LLC","frn":"0006422059","callsign":"WPTX353","categoryDesc":"Land Mobile
+        Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"01/07/2012","licenseID":"2374089","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2374089"},{"licName":"PJG
+        Watson LLC","frn":"0006422059","callsign":"WPZI705","categoryDesc":"Land Mobile
+        Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"01/16/2014","licenseID":"2577464","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2577464"},{"licName":"POLLY
+        WATSON VFD","frn":"0001913045","callsign":"KAW477","categoryDesc":"Safety
+        of Life","serviceDesc":"Public Safety Pool, Conventional","statusDesc":"Expired","expiredDate":"12/20/2011","licenseID":"1176356","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1176356"},{"licName":"R
+        M WATSON & SONS INC","frn":"0001892694","callsign":"KNFA569","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"04/01/2002","licenseID":"1852276","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1852276"},{"licName":"RAMSEY
+        II, WATSON D","frn":"0005380639","callsign":"KB5IQR","categoryDesc":"Personal
+        Use","serviceDesc":"Amateur","statusDesc":"Cancelled","expiredDate":"11/26/2001","licenseID":"365106","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=365106"},{"licName":"RAMSEY
+        II, WATSON D","frn":"0005380639","callsign":"KV4FX","categoryDesc":"Personal
+        Use","serviceDesc":"Amateur","statusDesc":"Active","expiredDate":"11/26/2011","licenseID":"2352547","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2352547"},{"licName":"RITTENHOUSE,
+        WATSON","frn":"","callsign":"WCK3361","categoryDesc":"Safety of Life","serviceDesc":"Ship
+        Recreational or Voluntarily Equipped","statusDesc":"Expired","expiredDate":"07/28/2004","licenseID":"1397862","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1397862"},{"licName":"Robert
+        K Watson Memorial Radio Club","frn":"0019000843","callsign":"KJ6BON","categoryDesc":"Personal
+        Use","serviceDesc":"Amateur","statusDesc":"Cancelled","expiredDate":"08/13/2019","licenseID":"3125225","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=3125225"},{"licName":"Robert
+        K Watson Memorial Radio Club","frn":"0019000843","callsign":"WB6GWA","categoryDesc":"Personal
+        Use","serviceDesc":"Vanity","statusDesc":"Active","expiredDate":"09/04/2019","licenseID":"3130420","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=3130420"},{"licName":"SCHLEGEL,
+        PETE E, STOWELL JR, RODERICK H, WATSON, LAWRENCE D","frn":"","callsign":"8157N","categoryDesc":"Safety
+        of Life","serviceDesc":"Aircraft","statusDesc":"Expired","expiredDate":"03/21/2005","licenseID":"70327","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=70327"},{"licName":"STAINS
+        JR, WATSON A","frn":"","callsign":"KB5PIM","categoryDesc":"Personal Use","serviceDesc":"Amateur","statusDesc":"Expired","expiredDate":"12/24/2001","licenseID":"367766","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=367766"},{"licName":"STEPP,
+        WATSON D","frn":"0013466479","callsign":"KC7MPU","categoryDesc":"Personal
+        Use","serviceDesc":"Amateur","statusDesc":"Active","expiredDate":"08/11/2015","licenseID":"472048","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=472048"},{"licName":"Sprague
+        Jr, Watson E","frn":"0014051221","callsign":"KI4LVO","categoryDesc":"Personal
+        Use","serviceDesc":"Amateur","statusDesc":"Active","expiredDate":"09/23/2015","licenseID":"2749957","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2749957"},{"licName":"THE
+        EDUCATION CENTER AT THE WATSON INSTITUTE","frn":"0017081803","callsign":"WQIE606","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"01/17/2018","licenseID":"2976955","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2976955"},{"licName":"VERNON
+        WATSON","frn":"","callsign":"KC26252","categoryDesc":"Broadcast Support","serviceDesc":"TV
+        Pickup","statusDesc":"Active","expiredDate":"02/01/2013","licenseID":"957202","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=957202"},{"licName":"VERNON
+        WATSON","frn":"0003789047","callsign":"WBQP-CA","categoryDesc":"Broadcast","serviceDesc":"Class
+        A TV","statusDesc":"Active","expiredDate":"02/01/2013","licenseID":"1000069993","licDetailURL":"http://licensing.fcc.gov/cgi-bin/ws.exe/prod/cdbs/pubacc/prod/sta_det.pl?Facility_id=69993"},{"licName":"VERNON
+        WATSON","frn":"0011595170","callsign":"WQEW745","categoryDesc":"Broadcast
+        Support","serviceDesc":"TV Studio Transmitter Link","statusDesc":"Terminated","expiredDate":"02/01/2013","licenseID":"2808124","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2808124"},{"licName":"WATSON
+        & ASSOCIATES OF MIDLAND INC","frn":"0005777172","callsign":"KA55105","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"06/05/2015","licenseID":"1843957","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1843957"},{"licName":"WATSON
+        & CHALIN MANUFACTURING INC","frn":"0010626323","callsign":"WQAS210","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"07/27/2014","licenseID":"2640501","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2640501"},{"licName":"WATSON
+        & SONS INC","frn":"0009671017","callsign":"WPDQ953","categoryDesc":"Land Mobile
+        Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"10/28/2013","licenseID":"1713609","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1713609"},{"licName":"WATSON
+        & WATSON, INC","frn":"0010363018","callsign":"WQAQ579","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"07/20/2014","licenseID":"2638409","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2638409"},{"licName":"WATSON
+        & WATSON, INC. DBA MCDONALD''S","frn":"0008047607","callsign":"WPXD871","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"03/13/2013","licenseID":"2494684","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2494684"},{"licName":"WATSON
+        AG CHEM INC","frn":"","callsign":"WPMX949","categoryDesc":"Land Mobile Radio","serviceDesc":"Business,
+        896-901/935-940 MHz, Trunked","statusDesc":"Expired","expiredDate":"03/22/2004","licenseID":"1929949","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1929949"},{"licName":"WATSON
+        AGENCY INC","frn":"","callsign":"WPKF625","categoryDesc":"Land Mobile Radio","serviceDesc":"Industrial/Business
+        Pool, Conventional","statusDesc":"Expired","expiredDate":"02/07/2002","licenseID":"1745799","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1745799"},{"licName":"WATSON
+        AIR CHARTERS INC.","frn":"0009594656","callsign":"56617","categoryDesc":"Safety
+        of Life","serviceDesc":"Aircraft","statusDesc":"Active","expiredDate":"09/17/2013","licenseID":"2548551","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=2548551"},{"licName":"WATSON
+        AND ASSOCIATES OF MIDLAND INC","frn":"0008002172","callsign":"WPLQ792","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"12/02/2012","licenseID":"1758619","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1758619"},{"licName":"WATSON
+        AND ASSOCIATES OF MIDLAND INC","frn":"0005777172","callsign":"WPLY416","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"04/13/2013","licenseID":"1789648","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1789648"},{"licName":"WATSON
+        ASPHALT PAVING CO INC","frn":"0001578541","callsign":"KVB478","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Expired","expiredDate":"02/26/2003","licenseID":"1857449","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1857449"},{"licName":"WATSON
+        BROTHERS INC","frn":"0004540191","callsign":"KNAS212","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"01/16/2021","licenseID":"1774362","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1774362"},{"licName":"WATSON
+        CAR SERVICE","frn":"","callsign":"KNNR738","categoryDesc":"Land Mobile Radio","serviceDesc":"Industrial/Business
+        Pool, Conventional","statusDesc":"Expired","expiredDate":"04/12/2001","licenseID":"1634254","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1634254"},{"licName":"WATSON
+        CAR SERVICE","frn":"0008993727","callsign":"WPMS394","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"11/25/2013","licenseID":"1799914","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1799914"},{"licName":"WATSON
+        CENTERS INC","frn":"","callsign":"KNIR787","categoryDesc":"Land Mobile Radio","serviceDesc":"Industrial/Business
+        Pool, Conventional","statusDesc":"Terminated","expiredDate":"07/31/2004","licenseID":"1628350","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1628350"},{"licName":"WATSON
+        CENTERS INC DBA VALLEY WEST MALL","frn":"0009900788","callsign":"WPMS401","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"11/25/2013","licenseID":"1799952","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1799952"},{"licName":"WATSON
+        CHAPEL FIRE DEPARTMENT","frn":"","callsign":"WPIP503","categoryDesc":"Safety
+        of Life","serviceDesc":"Public Safety Pool, Conventional","statusDesc":"Expired","expiredDate":"10/16/2000","licenseID":"1193094","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1193094"},{"licName":"WATSON
+        CHAPEL WATER ASSOC INC","frn":"0004552881","callsign":"KNNU465","categoryDesc":"Land
+        Mobile Radio","serviceDesc":"Industrial/Business Pool, Conventional","statusDesc":"Active","expiredDate":"05/03/2021","licenseID":"1886924","licDetailURL":"http://wireless2.fcc.gov/UlsApp/UlsSearch/license.jsp?__newWindow=false&licKey=1886924"}]}}'
+    http_version: 
+  recorded_at: Mon, 30 Apr 2012 06:25:45 GMT
+recorded_with: VCR 2.1.1
